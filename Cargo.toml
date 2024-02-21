@@ -4,13 +4,9 @@ members = [
     "vm",
     "hint_accountant",
     "examples/wasm-demo",
-    "cairo1-run"
-]
-default-members = [
-    "cairo-vm-cli",
-    "vm",
     "cairo1-run",
 ]
+default-members = ["cairo-vm-cli", "vm", "cairo1-run"]
 exclude = ["ensure-no_std"]
 
 # Explicitly set the resolver to the default for edition >= 2021
@@ -72,11 +68,11 @@ cairo-lang-starknet = { version = "2.5.3", default-features = false }
 cairo-lang-runner = { version = "2.5.3", default-features = false }
 # cairo-lang-utils = { version = "2.5.3", default-features = false }
 
-cairo-lang-compiler = { git = "https://github.com/walnuthq/cairo", branch = "feat/sierra-refs-debug-info" }
-cairo-lang-sierra = { git = "https://github.com/walnuthq/cairo", branch = "feat/sierra-refs-debug-info" }
-cairo-lang-sierra-to-casm = { git = "https://github.com/walnuthq/cairo", branch = "feat/sierra-refs-debug-info" }
-cairo-lang-casm = { git = "https://github.com/walnuthq/cairo", branch = "feat/sierra-refs-debug-info" }
-cairo-lang-utils = { git = "https://github.com/walnuthq/cairo", branch = "feat/sierra-refs-debug-info" }
+cairo-lang-compiler = { git = "https://github.com/walnuthq/cairo", rev = "0d1d8f467ec241f99014e99398317f78266aa59c" }
+cairo-lang-sierra = { git = "https://github.com/walnuthq/cairo", rev = "0d1d8f467ec241f99014e99398317f78266aa59c" }
+cairo-lang-sierra-to-casm = { git = "https://github.com/walnuthq/cairo", rev = "0d1d8f467ec241f99014e99398317f78266aa59c" }
+cairo-lang-casm = { git = "https://github.com/walnuthq/cairo", rev = "0d1d8f467ec241f99014e99398317f78266aa59c" }
+cairo-lang-utils = { git = "https://github.com/walnuthq/cairo", rev = "0d1d8f467ec241f99014e99398317f78266aa59c" }
 
 # TODO: check these dependencies for wasm compatibility
 ark-ff = { version = "0.4.2", default-features = false }
