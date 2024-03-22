@@ -68,11 +68,11 @@ cairo-lang-starknet = { version = "2.5.3", default-features = false }
 cairo-lang-runner = { version = "2.5.3", default-features = false }
 # cairo-lang-utils = { version = "2.5.3", default-features = false }
 
-cairo-lang-compiler = { git = "https://github.com/walnuthq/cairo", rev = "3a0c51b5198de61be415e847c7e9b968d0897cc6" }
-cairo-lang-sierra = { git = "https://github.com/walnuthq/cairo", rev = "3a0c51b5198de61be415e847c7e9b968d0897cc6" }
-cairo-lang-sierra-to-casm = { git = "https://github.com/walnuthq/cairo", rev = "3a0c51b5198de61be415e847c7e9b968d0897cc6" }
-cairo-lang-casm = { git = "https://github.com/walnuthq/cairo", rev = "3a0c51b5198de61be415e847c7e9b968d0897cc6" }
-cairo-lang-utils = { git = "https://github.com/walnuthq/cairo", rev = "3a0c51b5198de61be415e847c7e9b968d0897cc6" }
+cairo-lang-compiler = { git = "https://github.com/walnuthq/cairo", rev = "89e0712c79d20ccf415b035f6fb02a0ab75feafb" }
+cairo-lang-sierra = { git = "https://github.com/walnuthq/cairo", rev = "89e0712c79d20ccf415b035f6fb02a0ab75feafb" }
+cairo-lang-sierra-to-casm = { git = "https://github.com/walnuthq/cairo", rev = "89e0712c79d20ccf415b035f6fb02a0ab75feafb" }
+cairo-lang-casm = { git = "https://github.com/walnuthq/cairo", rev = "89e0712c79d20ccf415b035f6fb02a0ab75feafb" }
+cairo-lang-utils = { git = "https://github.com/walnuthq/cairo", rev = "89e0712c79d20ccf415b035f6fb02a0ab75feafb" }
 
 # TODO: check these dependencies for wasm compatibility
 ark-ff = { version = "0.4.2", default-features = false }
