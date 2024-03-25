@@ -67,13 +67,13 @@ bitvec = { version = "1", default-features = false, features = ["alloc"] }
 
 # Dependencies for cairo-1-hints feature
 cairo-lang-starknet = { version = "2.5.4", default-features = false }
-cairo-lang-casm = { version = "2.5.4", default-features = false }
+cairo-lang-casm = { git = "https://github.com/walnuthq/cairo", rev = "34f53adcb57bc5748ed079e3039c051b59df663f" }
 
-cairo-lang-compiler = { version = "2.5.4", default-features = false }
-cairo-lang-sierra-to-casm = { version = "2.5.4", default-features = false }
-cairo-lang-sierra = { version = "2.5.4", default-features = false }
-cairo-lang-runner = { version = "2.5.4", default-features = false }
-cairo-lang-utils = { version = "2.5.4", default-features = false }
+cairo-lang-compiler = { git = "https://github.com/walnuthq/cairo", rev = "34f53adcb57bc5748ed079e3039c051b59df663f" }
+cairo-lang-sierra-to-casm = { git = "https://github.com/walnuthq/cairo", rev = "34f53adcb57bc5748ed079e3039c051b59df663f" }
+cairo-lang-sierra = { git = "https://github.com/walnuthq/cairo", rev = "34f53adcb57bc5748ed079e3039c051b59df663f" }
+cairo-lang-runner = { git = "https://github.com/walnuthq/cairo", rev = "34f53adcb57bc5748ed079e3039c051b59df663f" }
+cairo-lang-utils = { git = "https://github.com/walnuthq/cairo", rev = "34f53adcb57bc5748ed079e3039c051b59df663f" }
 
 # TODO: check these dependencies for wasm compatibility
 ark-ff = { version = "0.4.2", default-features = false }
