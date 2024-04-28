@@ -497,7 +497,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-casm"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-utils 2.6.3",
  "indoc",
@@ -532,7 +532,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-compiler"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "anyhow",
  "cairo-lang-defs 2.6.3",
@@ -563,7 +563,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-debug"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-utils 2.6.3",
 ]
@@ -588,7 +588,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-defs"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-debug 2.6.3",
  "cairo-lang-diagnostics 2.6.3",
@@ -616,7 +616,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-diagnostics"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-debug 2.6.3",
  "cairo-lang-filesystem 2.6.3",
@@ -637,7 +637,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-eq-solver"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-utils 2.6.3",
  "good_lp",
@@ -660,7 +660,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-filesystem"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-debug 2.6.3",
  "cairo-lang-utils 2.6.3",
@@ -698,7 +698,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-lowering"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-debug 2.6.3",
  "cairo-lang-defs 2.6.3",
@@ -742,7 +742,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-parser"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-diagnostics 2.6.3",
  "cairo-lang-filesystem 2.6.3",
@@ -780,7 +780,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-plugins"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-defs 2.6.3",
  "cairo-lang-diagnostics 2.6.3",
@@ -809,7 +809,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-proc-macros"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-debug 2.6.3",
  "quote",
@@ -833,7 +833,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-project"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-filesystem 2.6.3",
  "cairo-lang-utils 2.6.3",
@@ -871,7 +871,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-semantic"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-debug 2.6.3",
  "cairo-lang-defs 2.6.3",
@@ -921,7 +921,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "anyhow",
  "cairo-felt",
@@ -961,7 +961,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-ap-change"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-eq-solver 2.6.3",
  "cairo-lang-sierra 2.6.3",
@@ -990,7 +990,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-gas"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-eq-solver 2.6.3",
  "cairo-lang-sierra 2.6.3",
@@ -1027,7 +1027,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-generator"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-debug 2.6.3",
  "cairo-lang-defs 2.6.3",
@@ -1072,7 +1072,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-to-casm"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "assert_matches",
  "cairo-felt",
@@ -1102,7 +1102,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-type-size"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-sierra 2.6.3",
  "cairo-lang-utils 2.6.3",
@@ -1165,7 +1165,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-syntax"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "cairo-lang-debug 2.6.3",
  "cairo-lang-filesystem 2.6.3",
@@ -1190,7 +1190,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-syntax-codegen"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "genco",
  "xshell",
@@ -1214,7 +1214,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-utils"
 version = "2.6.3"
-source = "git+https://github.com/walnuthq/cairo?rev=0738417ce74e178d20ee6e160fc75cd4d641f613#0738417ce74e178d20ee6e160fc75cd4d641f613"
+source = "git+https://github.com/walnuthq/cairo?rev=931b3806abfe52f18859a235ae37b08d5d3e1f49#931b3806abfe52f18859a235ae37b08d5d3e1f49"
 dependencies = [
  "hashbrown 0.14.3",
  "indexmap 2.2.3",
