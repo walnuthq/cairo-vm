@@ -98,11 +98,11 @@ opt-level = 3
 opt-level = 3
 
 [patch.crates-io]
-cairo-lang-utils = { git = "https://github.com/walnuthq/cairo.git", rev = "93221753088d58f54f9a7f35a0bb338cf0bfb952", default-features = false }
-cairo-lang-starknet = { git = "https://github.com/walnuthq/cairo.git", rev = "93221753088d58f54f9a7f35a0bb338cf0bfb952", default-features = false }
-cairo-lang-casm = { git = "https://github.com/walnuthq/cairo.git", rev = "93221753088d58f54f9a7f35a0bb338cf0bfb952", default-features = false }
-cairo-lang-sierra = { git = "https://github.com/walnuthq/cairo.git", rev = "93221753088d58f54f9a7f35a0bb338cf0bfb952", default-features = false }
-cairo-lang-starknet-classes = { git = "https://github.com/walnuthq/cairo.git", rev = "93221753088d58f54f9a7f35a0bb338cf0bfb952", default-features = false }
-cairo-lang-compiler = { git = "https://github.com/walnuthq/cairo.git", rev = "93221753088d58f54f9a7f35a0bb338cf0bfb952", default-features = false }
-cairo-lang-sierra-to-casm = { git = "https://github.com/walnuthq/cairo.git", rev = "93221753088d58f54f9a7f35a0bb338cf0bfb952", default-features = false }
-cairo-lang-runner = { git = "https://github.com/walnuthq/cairo.git", rev = "93221753088d58f54f9a7f35a0bb338cf0bfb952", default-features = false }
+cairo-lang-utils = { git = "https://github.com/walnuthq/cairo.git", rev = "c6262fa521d83aea5c51eb2b4c736f9dde3471b3", default-features = false }
+cairo-lang-starknet = { git = "https://github.com/walnuthq/cairo.git", rev = "c6262fa521d83aea5c51eb2b4c736f9dde3471b3", default-features = false }
+cairo-lang-casm = { git = "https://github.com/walnuthq/cairo.git", rev = "c6262fa521d83aea5c51eb2b4c736f9dde3471b3", default-features = false }
+cairo-lang-sierra = { git = "https://github.com/walnuthq/cairo.git", rev = "c6262fa521d83aea5c51eb2b4c736f9dde3471b3", default-features = false }
+cairo-lang-starknet-classes = { git = "https://github.com/walnuthq/cairo.git", rev = "c6262fa521d83aea5c51eb2b4c736f9dde3471b3", default-features = false }
+cairo-lang-compiler = { git = "https://github.com/walnuthq/cairo.git", rev = "c6262fa521d83aea5c51eb2b4c736f9dde3471b3", default-features = false }
+cairo-lang-sierra-to-casm = { git = "https://github.com/walnuthq/cairo.git", rev = "c6262fa521d83aea5c51eb2b4c736f9dde3471b3", default-features = false }
+cairo-lang-runner = { git = "https://github.com/walnuthq/cairo.git", rev = "c6262fa521d83aea5c51eb2b4c736f9dde3471b3", default-features = false }
